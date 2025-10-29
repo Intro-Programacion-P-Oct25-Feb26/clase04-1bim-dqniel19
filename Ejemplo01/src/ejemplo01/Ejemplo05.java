@@ -27,6 +27,11 @@ public class Ejemplo05 {
         System.out.println(nombreEstudiante+"\n"+"\n"+apellidoEstudiante+ "\n"+
                 "\n"+ nacimiento); */
         System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
-        System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);   
+        System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);
+        /* 
+        \t es tomado como el espacio creado al presionar tab (4 espacios) y 
+        \n es todo el espacios sobrante hasta la siguiente linea 
+        */
+
     }
 }

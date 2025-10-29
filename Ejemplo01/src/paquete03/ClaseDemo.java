@@ -8,6 +8,9 @@ package paquete03;
  *
  * @author UTPL
  */
-public class Ejercicio01 {
+public class ClaseDemo {
+        public static void main(String[] args) {
+    System.out.println("Hola");
     
+}
 }

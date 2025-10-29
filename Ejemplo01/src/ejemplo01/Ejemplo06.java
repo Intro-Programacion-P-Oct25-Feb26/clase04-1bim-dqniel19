@@ -11,12 +11,17 @@ package ejemplo01;
  */
 public class Ejemplo06 {
     public static void main(String[] args) {
+        String nombre = "Daniel";
+        String apellido = "Vargas";
+        int edad = 17;
+        String direccion = "Esteban Godoy";
+        String universidad = "Universidad Tecnica Particular de Loja";
+        String ciclo = "1ero";
+        String asignatura = "Introducción a la programación";
+        String paralelo = "A";
+        
         // Uso de printf
         // f: formato
-        
-        String nombreEstudiante = "René Rolando";
-        String apellidoEstudiante = "Elizalde Solano";
-        int nacimiento = 1983;
         
         // System.out.println(nombreEstudiante+" "+apellidoEstudiante+ " "+ 
         // nacimiento);
@@ -26,11 +31,8 @@ public class Ejemplo06 {
         // usamos %f para reemplazar los valore decimales
         // System.out.printf("%s\n\n%s\n\n%s\n", nombreEstudiante, 
         //        apellidoEstudiante, nacimiento);
-        System.out.printf("Nombre:%s\n\n%s\n\n%s\n", nombreEstudiante, 
-                apellidoEstudiante, nacimiento);
         
-        
-        System.out.printf("Nombre:%s\n\n%s\n\n%d\n", nombreEstudiante, 
-                apellidoEstudiante, nacimiento);
+                System.out.printf("Nombre:\n\t%s\nApellido:\n\t%s\nEdad:%d\nDirección:\n\n\t%s\n\nUniversidad:%s\nCiclo:%s\nAsignatura:%s\nParalelo:\n\t%s\n", 
+                        nombre, apellido, edad, direccion, universidad, ciclo, asignatura, paralelo);
     }
 }

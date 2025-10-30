@@ -34,12 +34,14 @@ public class Ejemplo0311 {
         System.out.println("Ingrese el ciclo académico en número");
         ciclo = entrada.nextInt();
         
-        System.out.printf("Datos del estudiante\nNombre: %s\nApellido: %s\nAño de nacimiento: %d\nCiclo académico: %d\n", 
+        System.out.printf("Datos del estudiante\nNombre: %s\nApellido: %s\nAño "
+                + "de nacimiento: %d\nCiclo académico: %d\n", 
                 nombre,
                 apellido,
                 nacimiento,
                 ciclo);
-        // Hemos cambiado en el System.out.printf el porcentaje s por d, ya que la variable nacimiento es un entero
+        /* Hemos cambiado en el System.out.printf el porcentaje s por d, ya que 
+        la variable nacimiento es un entero */
         
     }
 }
